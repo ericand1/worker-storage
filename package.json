@@ -1,7 +1,7 @@
 {
   "name": "worker-storage",
   "version": "1.0.0",
-  "description": "Library for storing sensative information in a Web Worker, keeps objects in a separate thread that can only be accessed through the library",
+  "description": "Library for storing sensative information in a Web Worker, keeps objects in a separate thread",
   "main": "lib/worker-storage.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -19,14 +19,15 @@
   },
   "keywords": [
     "Web Worker",
-    "Storage"
+    "Storage",
+    "Worker Storage"
   ],
-  "author": "Ping Identity Technical Enablement (https://www.pingidentity.com/)",
-  "license": "GPL-3.0",
+  "author": "Eric Anderson",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/issues"
+    "url": "https://github.com/ericand1/worker-storage/issues"
   },
-  "homepage": "https://github.com/#readme",
+  "homepage": "https://github.com/ericand1/worker-storage",
   "devDependencies": {
     "@babel/cli": "^7.17.0",
     "@babel/core": "^7.17.2",

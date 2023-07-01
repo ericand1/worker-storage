@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 // eslint-disable-next-line import/no-webpack-loader-syntax, import/extensions, import/no-unresolved
-import workerCode from '!!raw-loader!ts-loader!../uglify-raw!babel-loader!./worker.js';
+import workerCode from '!!raw-loader!../uglify-raw!babel-loader!./worker.js';
 
 enum WorkerStorageAction {
   GetItem = 'getItem',
