@@ -1,6 +1,6 @@
 {
   "name": "worker-storage",
-  "version": "1.0.0",
+  "version": "1.0.1npm ",
   "description": "Library for storing sensative information in a Web Worker, keeps objects in a separate thread",
   "main": "lib/worker-storage.js",
   "types": "lib/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/"
+    "url": "https://github.com/ericand1/worker-storage/"
   },
   "keywords": [
     "Web Worker",
