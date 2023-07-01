@@ -1,1 +1,1 @@
-console.log('here');
+export { WorkerStorage } from './worker-storage';
